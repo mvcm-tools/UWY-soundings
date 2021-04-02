@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 # script to pull Radiosonde data from the Fairbanks Airport
 # uses BeautifulSoup4 package to pull text from specified URL
 
