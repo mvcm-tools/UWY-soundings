@@ -9,7 +9,9 @@ import urllib.request
 import datetime
 import time
 
-print('Usage: '+sys.argv[0]+' YYYY-MM-DD')
+print('Usage: '+sys.argv[0]+' startdate enddate')
+print(' ')
+print('start and end dates in YYYY-MM-DD format')
 
 # UWY sounding data base url 
 baseurl = 'http://weather.uwyo.edu/cgi-bin/sounding?region=naconf&TYPE=TEXT%3ALIST'
